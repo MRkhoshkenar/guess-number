@@ -1,0 +1,74 @@
+.header {
+  padding: 2rem;
+  row-gap: 3rem;
+  @include respond(tab-land) {
+    row-gap: 12rem;
+  }
+
+  &__btn {
+    grid-column: 1 / 2;
+  }
+
+  &__heading {
+    color: #eee;
+    font-size: 4rem;
+    font-weight: 600;
+
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    justify-self: center;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    color: #eee;
+    font-weight: 500;
+
+    grid-column: 3/-1;
+    align-self: center;
+  }
+
+  &__number-box {
+    font-size: 6rem;
+    line-height: 0.8;
+    color: #333;
+    z-index: 3;
+    width: 15rem;
+    height: 10rem;
+    background-color: #eee;
+    text-align: center;
+    padding: 3rem 0;
+
+    grid-row: 3/-1;
+    grid-column: 1/-1;
+    justify-self: center;
+    align-self: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+  }
+
+  &__line {
+    height: 0.7rem;
+    background-color: #eee;
+    grid-row: 3/-1;
+    grid-column: 1/-1;
+    z-index: 0;
+    align-self: center;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  color: #eee;
+  font-size: 2rem;
+  font-family: "Press Start 2P", cursive;
+  padding: 1.8rem 3.2rem;
+  border: 3px solid #eee;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #eee;
+  color: #222;
+}
