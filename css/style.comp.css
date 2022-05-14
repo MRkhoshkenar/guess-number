@@ -45,6 +45,10 @@ body {
       grid-template-columns: 0.5fr 1fr 0.5fr;
       grid-template-rows: repeat(2, 1fr);
       row-gap: 6rem; } }
+  @media only screen and (max-width: 25.62em) {
+    .app {
+      grid-template-columns: 0.5fr 1fr 0.5fr;
+      grid-template-rows: 0.5fr max-content; } }
 
 .header {
   padding: 2rem;
