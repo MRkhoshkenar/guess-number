@@ -17,7 +17,7 @@
   @include respond(tab-port-2) {
     grid-template-columns: 0.5fr 1fr 0.5fr;
     grid-template-rows: repeat(2, 1fr);
-    row-gap: 6rem;
+    row-gap: 1rem;
   }
   @include respond(small-phone) {
     grid-template-columns: 0.5fr 1fr 0.5fr;
