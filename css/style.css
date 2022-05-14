@@ -17,7 +17,7 @@ html {
   @media only screen and (max-width: 37.5em) {
     html {
       font-size: 37.5%; } }
-  @media only screen and (max-width: 25.62em) {
+  @media only screen and (max-width: 26.5em) {
     html {
       font-size: 31.25%; } }
 
@@ -44,8 +44,8 @@ body {
     .app {
       grid-template-columns: 0.5fr 1fr 0.5fr;
       grid-template-rows: repeat(2, 1fr);
-      row-gap: 6rem; } }
-  @media only screen and (max-width: 25.62em) {
+      row-gap: 1rem; } }
+  @media only screen and (max-width: 26.5em) {
     .app {
       grid-template-columns: 0.5fr 1fr 0.5fr;
       grid-template-rows: 0.5fr max-content; } }
@@ -119,9 +119,9 @@ body {
       grid-column: 2/3;
       grid-row: 2/-1;
       justify-self: center; } }
-  @media only screen and (max-width: 25.62em) {
+  @media only screen and (max-width: 26.5em) {
     .guess {
-      gap: 8rem; } }
+      gap: 6rem; } }
   .guess__number {
     border: 0.5rem solid #eee;
     background-color: transparent;
@@ -150,7 +150,7 @@ body {
       justify-self: center;
       transform: translateY(-1rem);
       gap: 8rem; } }
-  @media only screen and (max-width: 25.62em) {
+  @media only screen and (max-width: 26.5em) {
     .result {
       gap: 5rem; } }
   .result__text {
